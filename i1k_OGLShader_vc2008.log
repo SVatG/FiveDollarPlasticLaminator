@@ -1,0 +1,108 @@
+﻿Build started 03.04.2010 12:28:54.
+     1>Project "J:\lol_BP\fdpl\i1k_OGLShader_vc2008.vcxproj" on node 51 (build target(s)).
+     1>_PrepareForBuild:
+         Creating ".\bin\vc2008\Release\i1k_OGLShader_vc2008.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../ /nologo /W3 /WX /O2 /Ob1 /Oi /Os /Oy- /D WINDOWS /D A32BITS /D SIMD /D NDEBUG /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /GF /Gm- /MT /Zp1 /GS- /fp:fast /Zc:wchar_t /Zc:forScope /FAs /Fa".\bin\vc2008\Release\\" /Fo".\bin\vc2008\Release\\" /Fd".\bin\vc2008\Release\\" /Gz /TP /analyze- /errorReport:prompt src\main_rel.cpp /QIfist /Gs  
+     1>cl : Command line warning D9035: option 'QIfist' has been deprecated and will be removed in a future release
+         main_rel.cpp
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(935,5): warning MSB8012: TargetPath(J:\lol_BP\fdpl\.\bin\vc2008\Release\i1k_OGLShader_vc2008.exe) does not match the Linker's OutputFile property value (J:\lol_BP\fdpl\exe\main_vc2008_rel.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(937,5): warning MSB8012: TargetName(i1k_OGLShader_vc2008) does not match the Linker's OutputFile property value (main_vc2008_rel). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         J:\lol_BP\fdpl\link.exe /ERRORREPORT:PROMPT /OUT:"exe/main_vc2008_rel.exe" /INCREMENTAL:NO /NOLOGO opengl32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST:NO /PDB:"J:\lol_BP\fdpl\bin\vc2008\Release\i1k_OGLShader_vc2008.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"entrypoint" /DYNAMICBASE:NO /IMPLIB:".\bin\vc2008\Release\i1k_OGLShader_vc2008.lib" /MACHINE:X86 .\bin\vc2008\Release\main_rel.obj
+         4klang.obj  /CRINKLER /VERBOSE:FUNCTIONS /VERBOSE:IMPORTS /VERBOSE:LABELS /HASHTRIES:300 /COMPMODE:SLOW /ORDERTRIES:1000 
+         Crinkler 1.2 (Sep  5 2009) (c) 2005-2009 Aske Simon Christensen & Rune Stubbe
+         
+         Ignoring unknown argument '/ERRORREPORT:PROMPT'
+         Ignoring unknown argument '/INCREMENTAL:NO'
+         Ignoring unknown argument '/NOLOGO'
+         Ignoring unknown argument '/NODEFAULTLIB'
+         Ignoring unknown argument '/MANIFEST:NO'
+         Ignoring unknown argument '/PDB:J:\lol_BP\fdpl\bin\vc2008\Release\i1k_OGLShader_vc2008.pdb'
+         Ignoring unknown argument '/TLBID:1'
+         Ignoring unknown argument '/DYNAMICBASE:NO'
+         Ignoring unknown argument '/IMPLIB:.\bin\vc2008\Release\i1k_OGLShader_vc2008.lib'
+         Ignoring unknown argument '/MACHINE:X86'
+         Ignoring unknown argument '/VERBOSE:FUNCTIONS'
+         Ignoring unknown argument '/VERBOSE:IMPORTS'
+         Ignoring unknown argument '/VERBOSE:LABELS'
+         Target: exe/main_vc2008_rel.exe
+         Subsystem type: WINDOWS
+         Compression mode: SLOW
+         Hash size: 100 MB
+         Hash tries: 300
+         Order tries: 1000
+         Report: NONE
+         Transforms: NONE
+         Replace DLLs: NONE
+         Range DLLs: NONE
+         
+         loading: 
+           opengl32.lib  winmm.lib  kernel32.lib  user32.lib
+           gdi32.lib  winspool.lib  comdlg32.lib  advapi32.lib
+           shell32.lib  ole32.lib  oleaut32.lib  uuid.lib
+           odbc32.lib  odbccp32.lib  .\bin\vc2008\Release\main_rel.obj  4klang.obj
+         
+         
+         Uncompressed size of code:  1928
+         Uncompressed size of data:  9286
+         
+         |-- Estimating models for code ----------------------------|
+         ............................................................   0m02s
+         Ideal compressed size: 1197
+         
+         |-- Estimating models for data ----------------------------|
+         ............................................................   2m57s
+         Ideal compressed size: 2443
+         
+         Estimated ideal compressed total size: 3641
+         
+         
+         Reordering sections...
+           Iteration:     9  Size: 3642.16
+           Iteration:    10  Size: 3639.02
+           Iteration:    13  Size: 3639.02
+           Iteration:    16  Size: 3636.44
+           Iteration:    21  Size: 3636.14
+           Iteration:    23  Size: 3635.99
+           Iteration:    39  Size: 3635.52
+           Iteration:    61  Size: 3634.82
+           Iteration:    80  Size: 3633.04
+           Iteration:    91  Size: 3630.24
+           Iteration:   120  Size: 3628.89
+           Iteration:   123  Size: 3627.17
+           Iteration:   139  Size: 3626.15
+           Iteration:   144  Size: 3625.60
+           Iteration:   416  Size: 3625.17
+           Iteration:   453  Size: 3625.17
+           Iteration:   504  Size: 3625.09
+           Iteration:   752  Size: 3624.96
+         Time spent: 0m40s
+         
+         |-- Reestimating models for code --------------------------|
+         ............................................................   0m03s
+         Ideal compressed size: 1185
+         
+         |-- Reestimating models for data --------------------------|
+         ............................................................   3m02s
+         Ideal compressed size: 2432
+         
+         Reestimated ideal compressed total size: 3617
+         
+         |-- Optimizing hash table size ----------------------------|
+         ............................................................   1m00s
+         Real compressed total size: 3629
+         Bytes lost to hashing: 12
+         
+         Final file size: 4083
+         
+         time spent: 470265ms
+         i1k_OGLShader_vc2008.vcxproj -> J:\lol_BP\fdpl\.\bin\vc2008\Release\i1k_OGLShader_vc2008.exe
+       _AfterBuild:
+         Deleting file ".\bin\vc2008\Release\i1k_OGLShader_vc2008.unsuccessfulbuild".
+         Touching ".\bin\vc2008\Release\i1k_OGLShader_vc2008.lastbuildstate".
+     1>Done Building Project "J:\lol_BP\fdpl\i1k_OGLShader_vc2008.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:07:51.43
